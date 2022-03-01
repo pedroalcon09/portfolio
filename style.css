@@ -6,7 +6,11 @@
 }
 
 body {
-  background: linear-gradient(to bottom, lightgrey, white);
+  background-image: url("./imgs/background3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 ul {
@@ -22,13 +26,13 @@ li {
   align-items: center;
   justify-content: center;
   width: 350px;
-  background-color: white;
+  background-color: rgba(211, 211, 211, 0.8);
   border-radius: 10px;
   margin: 20px;
 }
 
 h1 {
-  background-color: rgba(0, 0, 139, 0.623);
+  background-color: rgba(93, 155, 255, 0.8);
   color: whitesmoke;
   padding: 20px;
   font-size: 40px;
@@ -42,7 +46,7 @@ p {
 }
 
 h3 {
-  border-bottom: 2px solid palevioletred;
+  border-bottom: 2px solid grey;
   font-size: 25px;
 }
 
@@ -55,7 +59,7 @@ img {
 a {
   border: 2px solid transparent;
   padding: 15px;
-  background-color: rgba(0, 0, 139, 0.623);
+  background-color: rgb(50, 130, 255, 0.8);
   border-radius: 5px;
   color: white;
   font-size: 20px;
@@ -67,6 +71,6 @@ a:hover {
   transition: 0.5s;
   border-color: black;
   font-weight: 900;
-  background-color: palevioletred;
+  background-color: rgba(0, 98, 255, 0.8);
   box-shadow: 5px 5px black;
 }
