@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Nunito:wght@500&display=swap");
+
+* {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(to bottom, lightgrey, white);
+}
+
+ul {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+h1 {
+  background-color: rgba(0, 0, 139, 0.623);
+  color: whitesmoke;
+  padding: 20px;
+  font-size: 40px;
+  margin: 0px;
+}
+
+p {
+  width: 200px;
+  font-size: 18px;
+  margin: 20px 0px;
+}
+
+h3 {
+  border-bottom: 2px solid palevioletred;
+  font-size: 25px;
+}
+
+img {
+  width: 260px;
+  height: 120px;
+  margin: 15px;
+}
+
+a {
+  border: 2px solid transparent;
+  padding: 15px;
+  background-color: rgba(0, 0, 139, 0.623);
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 30px;
+}
+
+a:hover {
+  transition: 0.5s;
+  border-color: black;
+  font-weight: 900;
+  background-color: palevioletred;
+  box-shadow: 5px 5px black;
+}
