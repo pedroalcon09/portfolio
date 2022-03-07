@@ -3,6 +3,8 @@
 * {
   font-family: "Nunito", sans-serif;
   text-align: center;
+  padding: 0px;
+  margin: 0px;
 }
 
 body {
@@ -15,7 +17,8 @@ body {
 
 ul {
   display: flex;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -25,7 +28,7 @@ li {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 350px;
+  width: 250px;
   background-color: rgba(211, 211, 211, 0.8);
   border-radius: 10px;
   margin: 20px;
@@ -34,25 +37,26 @@ li {
 h1 {
   background-color: rgba(93, 155, 255, 0.8);
   color: whitesmoke;
-  padding: 20px;
-  font-size: 40px;
+  padding: 20px 0px;
+  font-size: 30px;
   margin: 0px;
 }
 
 p {
   width: 200px;
   font-size: 18px;
-  margin: 20px 0px;
+  margin: 10px 0px;
 }
 
 h3 {
   border-bottom: 2px solid grey;
   font-size: 25px;
+  margin: 10px;
 }
 
 img {
-  width: 260px;
-  height: 120px;
+  width: 160px;
+  height: 70px;
   margin: 15px;
 }
 
@@ -64,7 +68,7 @@ a {
   color: white;
   font-size: 20px;
   font-weight: 500;
-  margin: 30px;
+  margin: 15px;
 }
 
 a:hover {
@@ -73,4 +77,37 @@ a:hover {
   font-weight: 900;
   background-color: rgba(0, 98, 255, 0.8);
   box-shadow: 5px 5px black;
+}
+
+@media (min-width: 667px) {
+  h1 {
+    width: 100%;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 80%;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  p {
+    width: 200px;
+    font-size: 18px;
+    margin: 10px 0px;
+  }
+}
+
+@media (min-width: 1024px) {
 }
